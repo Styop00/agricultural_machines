@@ -1,0 +1,69 @@
+# Environment files
+.env
+.env.*
+!.env.example
+agricultural_machinery/.env
+agricultural_machinery/.env.*
+!agricultural_machinery/.env.example
+agricultural_machines_front/.env
+agricultural_machines_front/.env.*
+!agricultural_machines_front/.env.example
+
+# Dependencies
+agricultural_machinery/vendor/
+agricultural_machinery/node_modules/
+agricultural_machines_front/node_modules/
+
+# Laravel generated files
+agricultural_machinery/public/build/
+agricultural_machinery/public/hot
+agricultural_machinery/public/storage
+agricultural_machinery/storage/*.key
+agricultural_machinery/storage/pail/
+agricultural_machinery/bootstrap/cache/*.php
+agricultural_machinery/.phpunit.cache/
+agricultural_machinery/.phpunit.result.cache
+
+# Nuxt generated files
+agricultural_machines_front/.output/
+agricultural_machines_front/.data/
+agricultural_machines_front/.nuxt/
+agricultural_machines_front/.nitro/
+agricultural_machines_front/.cache/
+agricultural_machines_front/dist/
+
+# Logs
+*.log
+logs/
+agricultural_machinery/storage/logs/*.log
+agricultural_machines_front/logs/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+agricultural_machinery/.idea/
+agricultural_machinery/.vscode/
+agricultural_machines_front/.idea/
+agricultural_machines_front/.vscode/
+
+# Tooling and local assistant folders
+.ai/
+.cursor/
+.junie/
+agricultural_machinery/.ai/
+agricultural_machinery/.cursor/
+agricultural_machinery/.junie/
+agricultural_machines_front/.ai/
+agricultural_machines_front/.cursor/
+agricultural_machines_front/.junie/
+
+# Auth and local config
+agricultural_machinery/auth.json
+agricultural_machinery/.phpactor.json
+agricultural_machinery/Homestead.json
+agricultural_machinery/Homestead.yaml
