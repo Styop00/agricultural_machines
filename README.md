@@ -9,7 +9,7 @@ This project has two applications:
 
 - PHP 8.2+
 - Composer
-- Node.js and npm
+- Node.js v22^ and npm
 - MySQL
 
 ## Backend Setup
