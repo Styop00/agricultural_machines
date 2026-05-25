@@ -26,12 +26,6 @@ Install PHP dependencies:
 composer install
 ```
 
-Install frontend assets for the Laravel/Filament app:
-
-```bash
-npm install
-```
-
 Create the Laravel environment file:
 
 ```bash
@@ -78,12 +72,6 @@ Create the storage symlink for uploaded/public files:
 
 ```bash
 php artisan storage:link
-```
-
-Build Laravel assets:
-
-```bash
-npm run build
 ```
 
 Start the backend API:
@@ -143,13 +131,6 @@ php artisan queue:restart
 ```
 
 ## Backend Useful Commands
-
-Run tests:
-
-```bash
-php artisan test
-```
-
 Format PHP code:
 
 ```bash
@@ -160,12 +141,6 @@ Clear caches:
 
 ```bash
 php artisan optimize:clear
-```
-
-Run Laravel server, queue listener, logs, and Vite together:
-
-```bash
-composer run dev
 ```
 
 ## Frontend Setup
